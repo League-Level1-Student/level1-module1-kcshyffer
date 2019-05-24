@@ -27,12 +27,12 @@ public class Cat {
 	}
 
 	void meow() {
-		System.out.println("meeeeeooooooooooowwwwwwwww!!");
+		System.out.println("MEEEEEOOOOOOooooooorrrrrrwwwwwwwww!!");
 	}
 
 	public void printName() {
 		if (name == null)
-			System.out.println("i don't know my own name!");
+			System.out.println("I don't know my own name!");
 		else
 			System.out.println("my name is " + name);
 	}
@@ -40,7 +40,7 @@ public class Cat {
 	void kill() {
 		lives--;
 		if (lives > 0)
-			System.out.println("nice try, but I still have " + lives + " lives left");
+			System.out.println("Nice try, but I still have " + lives + " lives left");
 		else if (lives < 0)
 			System.out.println("that's overkill yo!");
 		else
