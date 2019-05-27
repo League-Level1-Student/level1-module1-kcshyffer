@@ -19,11 +19,11 @@ public class HarryPotter {
 	private boolean cloakOn;
 
 	HarryPotter() {
-		System.out.println("making Harry Potter...");
+		System.out.println("Making Harry Potter...");
 	}
 
 	void castSpell(String spell) {
-		System.out.println("casting spell: " + spell);
+		System.out.println("Casting spell: " + spell);
 	}
 
 	void makeInvisible(boolean invisible) {

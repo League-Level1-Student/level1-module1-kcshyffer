@@ -34,7 +34,7 @@ public class Cat {
 		if (name == null)
 			System.out.println("I don't know my own name!");
 		else
-			System.out.println("my name is " + name);
+			System.out.println("My name is " + name);
 	}
 
 	void kill() {
@@ -42,7 +42,7 @@ public class Cat {
 		if (lives > 0)
 			System.out.println("Nice try, but I still have " + lives + " lives left");
 		else if (lives < 0)
-			System.out.println("that's overkill yo!");
+			System.out.println("That's overkill yo!");
 		else
 			System.out.println("DEAD CAT :(");
 	}

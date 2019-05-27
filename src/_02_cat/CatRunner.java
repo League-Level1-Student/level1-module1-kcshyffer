@@ -12,8 +12,9 @@ public static void main(String[] args) {
 	// 2. Get the Cat to print it's name
 	Cat.printName();
 	// 3. Kill the Cat! 
-	
-	
+	for (int i = 0; i < 10; i++) {
+		Cat.kill();
+	}
 	
 	}
 }
